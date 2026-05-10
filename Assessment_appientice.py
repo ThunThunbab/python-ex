@@ -13,3 +13,15 @@ if age < 13 :
 else:
   print('welcome')
 print(f'HELLO,{name_f}.')
+
+#Q2
+coffee = int(input('Number of coffee'))
+cakes = int(input('Number of cakes'))
+cake_subt = 30*cakes
+cof_subt = 50*coffee
+total = cof_subt+cake_subt
+
+if total > 200:
+  DP = total*0.1
+  total = total - DP
+print(f'Your order is {total} baht. ')
