@@ -68,3 +68,15 @@ if A == 20 :
   print('corret')
 else: 
   print('failed')
+
+
+#Challenge 8: Shopping Total with Bonus
+
+p = int(input('What si the total?'))
+if p > 1000:
+  print('VIP')
+elif p > 500:
+  print('you got a water bottle.')
+
+
+print(f'total:{p} baht.')
