@@ -59,3 +59,12 @@ FFF = FF
 print(NF)
 print(AF)
 print(f'You love {FFF}!!')
+
+
+
+Challenge 10: Mini Quiz (1 Question)
+A = int(input('What is 10 + 10?'))
+if A = 20 :
+  print('corret')
+else: 
+  print('failed')
