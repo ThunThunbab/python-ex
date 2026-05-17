@@ -36,29 +36,25 @@ print(f'Your order is {total} baht. ')
 #Challenge 4: Username & Password Checker
 
 U = input('What is the user name?')
-P = int(input('What is the passcode?'))
+P = input('What is the passcode?')
 
-if U == 'admin':
-  if P == 1234:
-    print('Welcome admin!!')
-  else:
-    print('Error!!!!!')
+if U == 'admin' and  P == '1234':
+  print('LOGIN SUCCESS')
+ 
 else:
-  print("Error!!!!!!!!")
+  print("Login Failed")
 
 
 
 #Challenge 5: Mini Profile Generator
-print('THIS IS NOT A SCAM')
 Name = input('What is your name?')
 Age = int(input('What is your age?'))
 FF = input('What is your favirote food?')
 NF = Name.upper()
 AF = Age + 1
-FFF = FF
 print(NF)
 print(AF)
-print(f'You love {FFF}!!')
+print(f'You love {FF}!!')
 
 
 
@@ -72,7 +68,7 @@ else:
 
 #Challenge 8: Shopping Total with Bonus
 
-p = int(input('What si the total?'))
+p = float(input('What si the total?'))
 if p > 1000:
   print('VIP')
 elif p > 500:
@@ -80,3 +76,44 @@ elif p > 500:
 
 
 print(f'total:{p} baht.')
+
+#Challenge 6: Even or Odd Checker
+
+input = int(input('Enter number.'))
+if input%2 == 0:
+  print('EVEN')
+else:
+  
+  
+
+  print('ODD')
+  
+  
+#Challenge 7: Simple Grade Checker
+
+score = int(input('Enter your score.'))
+if score >= 80:
+  print('Excellent')
+elif score >= 50 :
+  print('Pass')
+else:
+  print('Fail')
+  
+#Challenge 9: Password Strength Checker
+paco = input('What is your passcode?')
+if len(paco) < 6:
+  print('This is a week pass code!!.')
+else:
+  print("good passcode")
+  
+#Challenge 3: Temperature Checker
+
+Celsius = int(input('Enter temp C'))
+kevken = Celsius+273
+print(f'Kelvin is {kevken}')
+if Celsius > 30:
+  print('Hot!! Hot!!!')
+elif Celsius < 20:
+  print('Thhiiissss iissss soooo cooolld!!')
+else:
+  print('perfect weather today')
