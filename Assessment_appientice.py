@@ -45,3 +45,17 @@ if U == 'admin':
     print('Error!!!!!')
 else:
   print("Error!!!!!!!!")
+
+
+
+#Challenge 5: Mini Profile Generator
+print('THIS IS NOT A SCAM')
+Name = input('What is your name?')
+Age = int(input('What is your age?'))
+FF = input('What is your favirote food?')
+NF = Name.upper()
+AF = Age + 1
+FFF = FF
+print(NF)
+print(AF)
+print(f'You love {FFF}!!')
