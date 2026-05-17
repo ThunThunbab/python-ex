@@ -25,3 +25,23 @@ if total > 200:
   DP = total*0.1
   total = total - DP
 print(f'Your order is {total} baht. ')
+
+
+
+
+
+
+
+
+#Challenge 4: Username & Password Checker
+
+U = input('What is the user name?')
+P = int(input('What is the passcode?'))
+
+if U == 'admin':
+  if P == 1234:
+    print('Welcome admin!!')
+  else:
+    print('Error!!!!!')
+else:
+  print("Error!!!!!!!!")
